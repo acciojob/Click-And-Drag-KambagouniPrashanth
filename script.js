@@ -1,5 +1,5 @@
 // Your code here.
-const itemElement=document.getElementById("item");
+const itemElement=document.getElementByClass("item");
 itemElement.addEventListener("mousedown",(e)=>{
     console.log("mousedown")
 
